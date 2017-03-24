@@ -201,7 +201,7 @@ a {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  margin-top: -300px;
+  margin-top: -500px;
   flex-flow: wrap;
 }
 
@@ -209,16 +209,34 @@ a {
   display: flex;
   flex-direction: column;
   max-width: 350px;
+  height: 350px;
   align-items: center;
   justify-content: center;
-  margin: 150px 50px 0 50px;
+  margin: 100px 50px 0 50px;
+}
+
+.feature_img {
+  display: flex;
+  margin-bottom: 50px;
+  height: 150px;
+}
+
+.feature_info {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: center;
 }
 
 .feature h2 {
+  margin: 0;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .feature p {
+  margin: 0px;
   text-align: center;
 }
 
@@ -366,7 +384,7 @@ a {
 
 .circle-three {
   left: 35%;
-  top: 400px;
+  top: 200px;
 }
 
 .circle-four {
@@ -393,7 +411,7 @@ a {
 
 .triangle-two {
   left: 40%;
-  top: 700px;
+  top: 300px;
 }
 
 .squiggle-four {
